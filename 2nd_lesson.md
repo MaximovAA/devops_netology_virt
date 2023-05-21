@@ -27,6 +27,23 @@
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
 ```
+amaksimov@deburunta:~$ vboxmanage --version
+7.0.8r156879
+
+amaksimov@deburunta:~$ vagrant --version
+Vagrant 2.2.14
+
+amaksimov@deburunta:~$ terraform version
+Terraform v1.4.6
+on linux_amd64
+
+amaksimov@deburunta:~$ ansible --version
+ansible 2.10.8
+  config file = /home/amaksimov/ansible.cfg
+  configured module search path = ['/home/amaksimov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]
 
 ```
 
@@ -52,5 +69,28 @@ Error: The requested URL returned error: 404:
 1. Скачайте с [сайта](https://app.vagrantup.com/bento/boxes/ubuntu-20.04) файл-образ "bento/ubuntu-20.04".
 2. Добавьте его в список образов Vagrant: "vagrant box add bento/ubuntu-20.04 <путь к файлу>".
 ```
+amaksimov@deburunta:~/vagrant$ vagrant provision
+==> server1.netology: Running provisioner: ansible...
+    server1.netology: Running ansible-playbook...
 
+PLAY [Playbook] ****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server1.netology]
+
+TASK [Installing tools] ********************************************************
+ok: [server1.netology] => (item=['git', 'curl'])
+
+TASK [Installing docker] *******************************************************
+changed: [server1.netology]
+
+TASK [Add the current user to docker group] ************************************
+changed: [server1.netology]
+
+PLAY RECAP *********************************************************************
+server1.netology           : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+```
+```
+vagrant@server1:~$ sudo docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
