@@ -75,8 +75,14 @@ https://hub.docker.com/r/maximofaa/netologyvirt/tags
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
 
 ```
+root@deburunta:/home/amaksimov# docker images
+REPOSITORY               TAG       IMAGE ID       CREATED             SIZE
+maximofaa/netologyvirt   ver1      c5369a6ebd76   About an hour ago   143MB
+debian                   latest    1ac99357ef21   4 days ago          124MB
+centos                   latest    5d0da3dc9764   20 months ago       231MB
 
 ```
+![mnt_data](https://github.com/MaximovAA/devops_netology_term/blob/main/mnt_data.jpg "Пример вывода команд")
 
 ## Задача 4 (*)
 
