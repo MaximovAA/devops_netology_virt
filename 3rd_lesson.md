@@ -19,10 +19,12 @@ Hey, Netology
 </body>
 </html>
 ```
+Опубликуйте созданный fork в своём репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.  
+
 https://hub.docker.com/r/maximofaa/netologyvirt/tags
 
 ![nginx](https://github.com/MaximovAA/devops_netology_term/blob/main/nginx1.jpg) "Пример вывода команд")
-Опубликуйте созданный fork в своём репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
+
 
 ## Задача 2
 
