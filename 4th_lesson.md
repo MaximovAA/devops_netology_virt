@@ -27,7 +27,7 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 
 Чтобы получить зачёт, вам нужно предоставить вывод команды terraform apply и страницы свойств, созданной ВМ из личного кабинета YandexCloud.
 
-![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/VMYC.jpg "Пример вывода команд")
+![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/VMYC2.jpg "Пример вывода команд")
 
 ## Задача 3
 
@@ -48,4 +48,4 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 
 - скриншот работающего веб-интерфейса Grafana с текущими метриками, как на примере ниже.
 
-![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/monitor%20service.jpg "Пример вывода команд")
+![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/monitor%20service2.jpg "Пример вывода команд")
