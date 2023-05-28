@@ -15,7 +15,7 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 
 ```
 
-![nginx](https://github.com/MaximovAA/devops_netology_term/blob/main/YCpacker.jpg "Пример вывода команд")
+![YCpacker](https://github.com/MaximovAA/devops_netology_term/blob/main/YCpacker.jpg "Пример вывода команд")
 
 ## Задача 2
 
@@ -29,6 +29,8 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 ```
 
 ```
+![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/VMYC.jpg "Пример вывода команд")
+
 ## Задача 3
 
 С помощью Ansible и Docker Compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana.
