@@ -5,6 +5,17 @@
 Создайте собственный образ любой операционной системы (например ubuntu-20.04) с помощью Packer ([инструкция](https://cloud.yandex.ru/docs/tutorials/infrastructure-management/packer-quickstart)).
 
 Чтобы получить зачёт, вам нужно предоставить скриншот страницы с созданным образом из личного кабинета YandexCloud.
+```
+Build 'yandex' finished after 3 minutes 6 seconds.
+
+==> Wait completed after 3 minutes 6 seconds
+
+==> Builds finished. The artifacts of successful builds are:
+--> yandex: A disk image was created: my-ubuntu-nginx (id: ******) with family name ubuntu-2004-lts
+
+```
+
+![nginx](https://github.com/MaximovAA/devops_netology_term/blob/main/YCpacker.jpg "Пример вывода команд")
 
 ## Задача 2
 
@@ -15,14 +26,18 @@
 Используйте Terraform-код в директории ([src/terraform](https://github.com/netology-group/virt-homeworks/tree/virt-11/05-virt-04-docker-compose/src/terraform)).
 
 Чтобы получить зачёт, вам нужно предоставить вывод команды terraform apply и страницы свойств, созданной ВМ из личного кабинета YandexCloud.
+```
 
+```
 ## Задача 3
 
 С помощью Ansible и Docker Compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana.
 Используйте Ansible-код в директории ([src/ansible](https://github.com/netology-group/virt-homeworks/tree/virt-11/05-virt-04-docker-compose/src/ansible)).
 
 Чтобы получить зачёт, вам нужно предоставить вывод команды "docker ps" , все контейнеры, описанные в [docker-compose](https://github.com/netology-group/virt-homeworks/blob/virt-11/05-virt-04-docker-compose/src/ansible/stack/docker-compose.yaml),  должны быть в статусе "Up".
+```
 
+```
 ## Задача 4
 
 1. Откройте веб-браузер, зайдите на страницу http://<внешний_ip_адрес_вашей_ВМ>:3000.
@@ -36,7 +51,9 @@
 <p align="center">
   <img width="1200" height="600" src="./assets/yc_02.png">
 </p>
+```
 
+```
 ## Задача 5 (*)
 
 Создайте вторую ВМ и подключите её к мониторингу, развёрнутому на первом сервере.
@@ -44,3 +61,6 @@
 Чтобы получить зачёт, предоставьте:
 
 - скриншот из Grafana, на котором будут отображаться метрики добавленного вами сервера.
+```
+
+```
