@@ -26,9 +26,7 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 Используйте Terraform-код в директории ([src/terraform](https://github.com/netology-group/virt-homeworks/tree/virt-11/05-virt-04-docker-compose/src/terraform)).
 
 Чтобы получить зачёт, вам нужно предоставить вывод команды terraform apply и страницы свойств, созданной ВМ из личного кабинета YandexCloud.
-```
 
-```
 ![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/VMYC.jpg "Пример вывода команд")
 
 ## Задача 3
@@ -37,9 +35,8 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 Используйте Ansible-код в директории ([src/ansible](https://github.com/netology-group/virt-homeworks/tree/virt-11/05-virt-04-docker-compose/src/ansible)).
 
 Чтобы получить зачёт, вам нужно предоставить вывод команды "docker ps" , все контейнеры, описанные в [docker-compose](https://github.com/netology-group/virt-homeworks/blob/virt-11/05-virt-04-docker-compose/src/ansible/stack/docker-compose.yaml),  должны быть в статусе "Up".
-```
 
-```
+![dockerps](https://github.com/MaximovAA/devops_netology_term/blob/main/dockerps.jpg "Пример вывода команд")
 ## Задача 4
 
 1. Откройте веб-браузер, зайдите на страницу http://<внешний_ip_адрес_вашей_ВМ>:3000.
@@ -50,19 +47,5 @@ Build 'yandex' finished after 3 minutes 6 seconds.
 Чтобы получить зачёт, предоставьте: 
 
 - скриншот работающего веб-интерфейса Grafana с текущими метриками, как на примере ниже.
-<p align="center">
-  <img width="1200" height="600" src="./assets/yc_02.png">
-</p>
-```
 
-```
-## Задача 5 (*)
-
-Создайте вторую ВМ и подключите её к мониторингу, развёрнутому на первом сервере.
-
-Чтобы получить зачёт, предоставьте:
-
-- скриншот из Grafana, на котором будут отображаться метрики добавленного вами сервера.
-```
-
-```
+![VMYC](https://github.com/MaximovAA/devops_netology_term/blob/main/monitor%20service.jpg "Пример вывода команд")
