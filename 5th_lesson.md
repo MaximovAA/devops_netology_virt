@@ -40,7 +40,8 @@ docker node ls
 ```
 
 ```
-![sfdisk](https://github.com/MaximovAA/devops_netology_term/blob/main/sfdisk.jpg "Пример вывода команд")
+![leadernode](https://github.com/MaximovAA/devops_netology_term/blob/main/leadernode.jpg "Пример вывода команд")
+![yandexmon](https://github.com/MaximovAA/devops_netology_term/blob/main/yandexmon.jpg "Пример вывода команд")
 
 ## Задача 3
 
@@ -53,7 +54,7 @@ docker service ls
 ```
 
 ```
-![sfdisk](https://github.com/MaximovAA/devops_netology_term/blob/main/sfdisk.jpg "Пример вывода команд")
+![dockerservice](https://github.com/MaximovAA/devops_netology_term/blob/main/dockerservice.jpg "Пример вывода команд")
 
 ## Задача 4 (*)
 
@@ -65,4 +66,4 @@ docker swarm update --autolock=true
 ```
 
 ```
-![sfdisk](https://github.com/MaximovAA/devops_netology_term/blob/main/sfdisk.jpg "Пример вывода команд")
+![dockerswarm](https://github.com/MaximovAA/devops_netology_term/blob/main/dockerswarm.jpg "Пример вывода команд")
