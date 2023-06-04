@@ -38,9 +38,7 @@
 ```
 docker node ls
 ```
-```
 
-```
 ![leadernode](https://github.com/MaximovAA/devops_netology_term/blob/main/leadernode.jpg "Пример вывода команд")
 ![yandexmon](https://github.com/MaximovAA/devops_netology_term/blob/main/yandexmon.jpg "Пример вывода команд")
 
@@ -52,10 +50,9 @@ docker node ls
 ```
 docker service ls
 ```
-```
 
-```
 ![dockerservice](https://github.com/MaximovAA/devops_netology_term/blob/main/dockerservice.jpg "Пример вывода команд")
+![grafanaswarm](https://github.com/MaximovAA/devops_netology_term/blob/main/grafanaswarm.jpg "Пример вывода команд")
 
 ## Задача 4 (*)
 
